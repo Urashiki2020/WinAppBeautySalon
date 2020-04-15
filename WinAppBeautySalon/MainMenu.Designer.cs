@@ -59,6 +59,7 @@
             this.buttonManufacturers.TabIndex = 9;
             this.buttonManufacturers.Text = " Производители";
             this.buttonManufacturers.UseVisualStyleBackColor = true;
+            this.buttonManufacturers.Click += new System.EventHandler(this.buttonManufacturers_Click);
             // 
             // buttonProducts
             // 
@@ -70,6 +71,7 @@
             this.buttonProducts.TabIndex = 10;
             this.buttonProducts.Text = "Продукты";
             this.buttonProducts.UseVisualStyleBackColor = true;
+            this.buttonProducts.Click += new System.EventHandler(this.buttonProducts_Click);
             // 
             // buttonProductSale
             // 
@@ -81,6 +83,7 @@
             this.buttonProductSale.TabIndex = 11;
             this.buttonProductSale.Text = "Проданные продукты";
             this.buttonProductSale.UseVisualStyleBackColor = true;
+            this.buttonProductSale.Click += new System.EventHandler(this.buttonProductSale_Click);
             // 
             // buttonInformationAboutTheDeveloper
             // 
@@ -88,10 +91,11 @@
             this.buttonInformationAboutTheDeveloper.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonInformationAboutTheDeveloper.Location = new System.Drawing.Point(12, 283);
             this.buttonInformationAboutTheDeveloper.Name = "buttonInformationAboutTheDeveloper";
-            this.buttonInformationAboutTheDeveloper.Size = new System.Drawing.Size(301, 40);
+            this.buttonInformationAboutTheDeveloper.Size = new System.Drawing.Size(361, 40);
             this.buttonInformationAboutTheDeveloper.TabIndex = 12;
             this.buttonInformationAboutTheDeveloper.Text = "Информация о разработчике";
             this.buttonInformationAboutTheDeveloper.UseVisualStyleBackColor = true;
+            this.buttonInformationAboutTheDeveloper.Click += new System.EventHandler(this.buttonInformationAboutTheDeveloper_Click);
             // 
             // buttonExit1
             // 
@@ -103,6 +107,7 @@
             this.buttonExit1.TabIndex = 13;
             this.buttonExit1.Text = "Выход";
             this.buttonExit1.UseVisualStyleBackColor = true;
+            this.buttonExit1.Click += new System.EventHandler(this.buttonExit1_Click);
             // 
             // FormMainMenu
             // 

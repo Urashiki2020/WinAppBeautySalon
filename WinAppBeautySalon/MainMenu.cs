@@ -23,5 +23,40 @@ namespace WinAppBeautySalon
         {
 
         }
+
+        private void buttonExit1_Click(object sender, EventArgs e)
+        {
+            FormAuthorization formAuthorization = new FormAuthorization();
+            formAuthorization.ShowDialog();
+            this.Hide();
+        }
+
+        private void buttonManufacturers_Click(object sender, EventArgs e)
+        {
+            FormManufacturers formManufacturers = new FormManufacturers();
+            formManufacturers.ShowDialog();
+            this.Hide();
+        }
+
+        private void buttonProducts_Click(object sender, EventArgs e)
+        {
+            FormProducts formProducts = new FormProducts();
+            formProducts.ShowDialog();
+            this.Hide();
+        }
+
+        private void buttonProductSale_Click(object sender, EventArgs e)
+        {
+            FormProductSale formProductSale = new FormProductSale();
+            formProductSale.ShowDialog();
+            this.Hide();
+        }
+
+        private void buttonInformationAboutTheDeveloper_Click(object sender, EventArgs e)
+        {
+            FormInformationAboutTheDeveloper formInformationAboutTheDeveloper = new FormInformationAboutTheDeveloper();
+            formInformationAboutTheDeveloper.ShowDialog();
+            this.Hide();
+        }
     }
 }
